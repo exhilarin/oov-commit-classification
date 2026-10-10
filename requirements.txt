@@ -1,0 +1,10 @@
+# Python 3.12. Install CPU PyTorch with:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+transformers==5.19.0
+scikit-learn==1.9.1
+pandas==3.0.6
+numpy==2.5.3
+matplotlib==3.11.2
+pyyaml==6.0.3
+laya==0.4.2
