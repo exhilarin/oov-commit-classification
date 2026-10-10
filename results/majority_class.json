@@ -1,0 +1,428 @@
+{
+  "model": "majority_class",
+  "family": "baseline (classical)",
+  "params": {
+    "features": "tfidf word 1-2gram",
+    "hyperparameter": null,
+    "val_macro_f1": 0.0553
+  },
+  "train_seconds": 1.1,
+  "labels": [
+    "build",
+    "chore",
+    "ci",
+    "docs",
+    "feat",
+    "fix",
+    "perf",
+    "refactor",
+    "style",
+    "test"
+  ],
+  "scores": {
+    "test": {
+      "accuracy": 0.3818113842415179,
+      "macro_f1": 0.05526244588744589,
+      "weighted_f1": 0.2109983096085769,
+      "per_class": {
+        "build": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 407.0
+        },
+        "chore": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1284.0
+        },
+        "ci": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 208.0
+        },
+        "docs": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1563.0
+        },
+        "feat": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1521.0
+        },
+        "fix": {
+          "precision": 0.3818113842415179,
+          "recall": 1.0,
+          "f1-score": 0.5526244588744589,
+          "support": 4085.0
+        },
+        "perf": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 198.0
+        },
+        "refactor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 925.0
+        },
+        "style": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 48.0
+        },
+        "test": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 460.0
+        },
+        "accuracy": 0.3818113842415179,
+        "macro avg": {
+          "precision": 0.038181138424151786,
+          "recall": 0.1,
+          "f1-score": 0.05526244588744589,
+          "support": 10699.0
+        },
+        "weighted avg": {
+          "precision": 0.145779933136424,
+          "recall": 0.3818113842415179,
+          "f1-score": 0.2109983096085769,
+          "support": 10699.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          407,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1284,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          208,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1563,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1521,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4085,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          198,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          925,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          48,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          460,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "test_unseen_repos": {
+      "accuracy": 0.34079776067179846,
+      "macro_f1": 0.05083507306889353,
+      "weighted_f1": 0.17324479065466164,
+      "per_class": {
+        "build": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 384.0
+        },
+        "chore": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2482.0
+        },
+        "ci": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 236.0
+        },
+        "docs": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2619.0
+        },
+        "feat": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2222.0
+        },
+        "fix": {
+          "precision": 0.34079776067179846,
+          "recall": 1.0,
+          "f1-score": 0.5083507306889353,
+          "support": 4870.0
+        },
+        "perf": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 56.0
+        },
+        "refactor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 835.0
+        },
+        "style": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 29.0
+        },
+        "test": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 557.0
+        },
+        "accuracy": 0.34079776067179846,
+        "macro avg": {
+          "precision": 0.034079776067179844,
+          "recall": 0.1,
+          "f1-score": 0.05083507306889353,
+          "support": 14290.0
+        },
+        "weighted avg": {
+          "precision": 0.11614311367891242,
+          "recall": 0.34079776067179846,
+          "f1-score": 0.17324479065466164,
+          "support": 14290.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          384,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2482,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          236,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2619,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2222,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4870,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          56,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          835,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          557,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}
