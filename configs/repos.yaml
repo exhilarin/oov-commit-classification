@@ -1,0 +1,30 @@
+# Source repositories for the dataset.
+# All of them follow (fully or mostly) the Conventional Commits convention,
+# and all of them are licensed under MIT or Apache-2.0 (checked via the GitHub API on 2026-10-10).
+repos:
+  - {name: angular/angular, license: MIT}
+  - {name: angular/angular-cli, license: MIT}
+  - {name: angular/components, license: MIT}
+  - {name: vuejs/core, license: MIT}
+  - {name: vitejs/vite, license: MIT}
+  - {name: nestjs/nest, license: MIT}
+  - {name: electron/electron, license: MIT}
+  - {name: nuxt/nuxt, license: MIT}
+  - {name: vitest-dev/vitest, license: MIT}
+  - {name: ionic-team/ionic-framework, license: MIT}
+  - {name: semantic-release/semantic-release, license: MIT}
+  - {name: tauri-apps/tauri, license: Apache-2.0}
+  - {name: denoland/deno, license: MIT}
+  - {name: facebook/docusaurus, license: MIT}
+  - {name: pnpm/pnpm, license: MIT}
+  - {name: prisma/prisma, license: Apache-2.0}
+  - {name: nrwl/nx, license: MIT}
+  - {name: conventional-changelog/commitlint, license: MIT}
+  - {name: eslint/eslint, license: MIT}
+  - {name: typeorm/typeorm, license: MIT}
+  - {name: ant-design/ant-design, license: MIT}
+  - {name: gatsbyjs/gatsby, license: MIT}
+  - {name: webpack/webpack-cli, license: MIT}
+  - {name: lerna/lerna, license: MIT}
+  - {name: element-plus/element-plus, license: MIT}
+  - {name: quasarframework/quasar, license: MIT}
