@@ -44,11 +44,12 @@ Primary metric: macro-F1 over 10 classes.
    definitions overlap (`refactor` vs `chore` vs `style`, `fix` vs `perf`), so labels are noisy. The rare classes
    suffer most: `perf` and `style` are mostly predicted as `fix`.
 2. **On the random split, a linear model on TF-IDF is the best.** Logistic Regression (0.508) beats every neural
-   model. Commit subjects are short and keyword-driven (`optimize`, `typo`, `workflow`, `add tests`), which
+   model. Commit subjects are short and keyword-driven (`optimize`, `clarify`, `workflow`, `tests`), which
    n-gram features capture well with 85k training examples.
-3. **On unseen repositories, ModernBERT is clearly the best (0.382 vs 0.351).** All models lose 13–18 points on
-   projects they never saw, because each project has its own vocabulary and habits. ModernBERT, pre-trained on code
-   and text, transfers best, although it was fine-tuned on only 20k of the 85k training commits.
+3. **On unseen repositories, ModernBERT is clearly the best (0.382 vs 0.351).** Every model loses accuracy on
+   projects it never saw, because each project has its own vocabulary and habits. The classical and from-scratch
+   models lose 14–18 macro-F1 points, the pretrained transformers only 9–10. ModernBERT, pre-trained on code and
+   text, transfers best, although it was fine-tuned on only 20k of the 85k training commits.
 4. **Zero-shot is not enough.** Laya, given only the label definitions, reaches 0.188 macro-F1 (3.4× the majority
    baseline). It strongly over-predicts `refactor`, whose definition ("neither fixes a bug nor adds a feature")
    works as a catch-all, and almost never predicts `fix`. Learning the convention from labeled data matters.
