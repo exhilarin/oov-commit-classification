@@ -1,4 +1,4 @@
-# Nuri Tayfun Akbeniz (210911043, @GITHUB_USERNAME)
+# Nuri Tayfun Akbeniz (210911043, @akbenizt)
 
 **Role:** research: problem definition, label set, evaluation metric and method choices.
 
