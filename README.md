@@ -7,9 +7,10 @@ Given only the description of a code change (a git commit subject), predict its 
 `feat`, `fix`, `docs`, `refactor`, `test`, `perf`, `build`, `ci`, `chore` or `style`.
 
 ```
-"handle trailing slash in lazy routes"         -> fix
-"add support for custom element tags"          -> feat
-"move route matching into a separate module"   -> refactor
+"handle platform destruction during rendering"   -> fix       (angular/angular-cli)
+"Add remote image support"                       -> feat      (gatsbyjs/gatsby)
+"remove dead code and redundant logic"           -> refactor  (ant-design/ant-design)
+"reduce redundant array iterations"              -> perf      (ant-design/ant-design)
 ```
 
 * **Dataset:** built by us, 121,276 commit messages from 26 MIT / Apache-2.0 open-source repositories,

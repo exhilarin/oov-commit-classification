@@ -36,9 +36,11 @@ A Conventional Commit header looks like `type(scope)!: subject`. The **type** be
 only the **subject** is kept as the input text:
 
 ```
-fix(router): handle trailing slash in lazy routes (#51234)
-└┬┘ └──┬──┘  └──────────────┬───────────────┘
-label  removed           input text = "handle trailing slash in lazy routes"
+header:      fix(router): handle errors from view transition readiness (#62535)
+             (angular/angular, commit e9f2156)
+label:       fix
+removed:     the type "fix", the scope "(router)" and the PR reference "(#62535)"
+input text:  "handle errors from view transition readiness"
 ```
 
 Removing the type and the scope is essential. Otherwise the label would appear in the input
