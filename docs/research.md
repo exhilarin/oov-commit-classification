@@ -7,9 +7,10 @@ change: is it a new feature, a bug fix, documentation, a refactoring, a test, a 
 improvement, a style change or general maintenance?
 
 ```
-"handle trailing slash in lazy routes"         -> fix
-"add support for custom element tags"          -> feat
-"move route matching into a separate module"   -> refactor
+"handle platform destruction during rendering"   -> fix       (angular/angular-cli)
+"Add remote image support"                       -> feat      (gatsbyjs/gatsby)
+"remove dead code and redundant logic"           -> refactor  (ant-design/ant-design)
+"reduce redundant array iterations"              -> perf      (ant-design/ant-design)
 ```
 
 It is a **10-class, single-label text classification** problem on short, technical English text.
